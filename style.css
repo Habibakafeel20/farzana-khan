@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.logo img {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.header>.box {
+    padding: 10px;
+}
+
+.header .box img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.header ul>.box.one {
+    border-bottom: 4px solid #1b53ba;
+}
+
+.header ul>.box.two {
+    border-bottom: 4px solid #e3350d;
+}
+
+.header ul>.box.three {
+    border-bottom: 4px solid #e6bc2f;
+}
+
+.header ul>.box.four {
+    border-bottom: 4px solid #4dad5b;
+}
+
+.header ul>.box li {
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #464646;
+}
+
+.header ul>.box.one:hover {
+    background-color: #1b53ba;
+}
+
+.header ul>.box.one:hover li {
+    color: white;
+}
+
+.header ul>.box.one:hover img {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.header ul>.box.two:hover {
+    background-color: #e3350d;
+}
+
+.header ul>.box.two:hover li {
+    color: white;
+}
+
+.header ul>.box.two:hover img {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.header ul>.box.three:hover {
+    background-color: #e6bc2f;
+}
+
+.header ul>.box.three:hover li {
+    color: white;
+}
+
+.header ul>.box.three:hover img {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.header ul>.box.four:hover {
+    background-color: #4dad5b;
+}
+
+.header ul>.box.four:hover li {
+    color: white;
+}
+
+.header ul>.box.four:hover img {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    margin-left: -5px;
+    font-size: 12px;
+}
+
+.Home{
+    margin-top: 20px;
+}
